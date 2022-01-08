@@ -1,0 +1,30 @@
+/* CSS goes here */
+:root {
+    --primary-color: maroon;
+    --secondary-color: white;
+    --tertiary-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 30px 50px;
+    background-color: var(--primary-color);
+    background-image: url("oceanography-building.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    z-index: 9999s;
+}
