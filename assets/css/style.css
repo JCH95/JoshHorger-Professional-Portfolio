@@ -27,6 +27,8 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
+    position: -webkit-sticky;
+    position: sticky;
     z-index: 9999;
 }
 
@@ -120,9 +122,21 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 80% 0 20%;
+    margin: 0 50% 0 50%;
+    border: 5px solid var(--primary-color);
 }
 
+.hero p {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 35px;
+    border: 5px solid var(--primary-color);
+    background-color: var(--tertiary-color);
+    text-align: center;
+}
+
+
+/* About Section start */
 .about {
     background-image: url("tamu-campus.jpg");
     background-size: cover;
@@ -151,6 +165,77 @@ section {
     color: var(--secondary-color);
 }
 
+/* Work Section start */
+.work {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.work h2 {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+.run-buddy {
+    position: relative;
+    width: 40%;
+    height: auto;
+}
+
+.project {
+    position: relative;
+    width: 30%;
+    height: auto;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px solid var(--primary-color);
+}
+
+.img-2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 5px solid var(--primary-color);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 5%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100%;
+    opacity: 0.5;
+    font-size: 0 0 20px;
+    padding: 0 5%;
+    text-align: center;
+    text-size-adjust: auto;
+}
+
+.project:hover .overlay, .run-buddy:hover .overlay {
+    opacity: 1;
+}
+
+/* Contact Section start */
 .contact {
     display: flex;
     justify-content: space-evenly;
