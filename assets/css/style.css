@@ -232,6 +232,11 @@ section {
     text-size-adjust: auto;
 }
 
+.lang {
+    font-size: 20px;
+    /* text-decoration-line: underline; */
+}
+
 .project:hover .overlay, .run-buddy:hover .overlay {
     opacity: 1;
 }

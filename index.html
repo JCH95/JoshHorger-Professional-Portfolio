@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Joshua Horger's Portfolio</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -41,7 +42,7 @@
                 <h2>About Me!</h2>
                 <p>
                     My name is Joshua Horger, a 26 year-old graduate from Texas A&M University. I graduated with a B.S. in Environmental Science and am hoping to use my knowledge
-                    in conjunction with software development to raise awareness of the urgency behind climate change and educate people further on the inner mechanisms of the planet.
+                    in conjunction with my certificate in software development to raise awareness of the urgency behind climate change and educate people further on the inner mechanisms of the planet.
                 </p>
 
                 <p>
@@ -55,68 +56,162 @@
         <!-- My Work section with past projects -->
         <section id="my-work" class="work">
             <h2>My Work</h2>
-            <div class="col">
-                <div class="run-buddy">
-                    <a href="https://jch95.github.io/Scholarship-App/" target="_blank">
-                        <img src="assets/images/scholarship.png" alt="Scholarship App website" class="img">
-                    </a>
-                    <div class="overlay">Scholarship App Site</div>
-                </div>
-
-                <div class="run-buddy">
-                    <a href="https://github.com/JCH95/Chess-App-Project-2" target="_blank">
-                        <img src="assets/images/chess-app.png" alt="Chess Club App" class="img-2">
-                    </a>
-                    <div class="overlay">King Chess Ranking</div>
-                </div>
-
-                <div class="run-buddy">
-                    <a href="https://github.com/crocket77/JASEalive" target="_blank">
-                        <img src="assets/images/life-sherpa.png" alt="Life Sherpa App" class="img-2">
-                    </a>
-                    <div class="overlay">Life Sherpa</div>
-                </div>
-
-                <div class="project">
-                    <a href="https://jch95.github.io/run-buddy/" target="_blank">
-                        <img src="assets/images/run-buddy.png" alt="Run Buddy website" class="img-2">
-                    </a>
-                    <div class="overlay">Run Buddy</div>
-                </div>
-
-                <div class="project">
-                    <a href="https://jch95.github.io/run-buddy/" target="_blank">
-                        <img src="assets/images/run-buddy.png" alt="Run Buddy website" class="img-2">
-                    </a>
-                    <div class="overlay">Run Buddy</div>
-                </div>
-
-                <div class="project">
-                    <a href="https://jch95.github.io/run-buddy/" target="_blank">
-                        <img src="assets/images/run-buddy.png" alt="Run Buddy website" class="img-2">
-                    </a>
-                    <div class="overlay">Run Buddy</div>
-                </div>
-
-                <div class="project">
-                    <a href="https://jch95.github.io/run-buddy/" target="_blank">
-                        <img src="assets/images/run-buddy.png" alt="Run Buddy website" class="img-2">
-                    </a>
-                    <div class="overlay">Run Buddy</div>
-                </div>
-
-                <div class="project">
-                    <a href="https://jch95.github.io/run-buddy/" target="_blank">
-                        <img src="assets/images/run-buddy.png" alt="Run Buddy website" class="img-2">
-                    </a>
-                    <div class="overlay">Run Buddy</div>
-                </div>
-
-                <div class="project">
-                    <a href="https://jch95.github.io/run-buddy/" target="_blank">
-                        <img src="assets/images/run-buddy.png" alt="Run Buddy website" class="img-2">
-                    </a>
-                    <div class="overlay">Run Buddy</div>
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-12">
+                    <div class="tile">
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-info">
+                                <p class="title">Scholarship Application</p>
+                                <p class="subtitle"><a href="https://github.com/JCH95/Scholarship-App" target="_blank">GitHub Repository</a></p>
+                                <figure class="image is-1280x960">
+                                    <img src="assets/images/scholarship.png" alt="Scholarship App" class="img">
+                                </figure>
+                                <br>
+                                <p>
+                                    A website built for the Society of Martha Washington. 
+                                    Candidates who want to apply for the Washington DC Scholarship can view the trip details on this site, 
+                                    and also apply by filling out the application form, where the information is privately stored and sent 
+                                    to a panel of judges. The judges can grade the form online through the use of a gradig matrix designed
+                                    using JavaScript. There is also a section to donate to The Society. This was built by a team of 6 developers within 2 weeks.
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <p class="lang">Languages</p>
+                                <p>HTML, CSS, JavaScript, Tailwind, jQuery</p>
+                            </article>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-info">
+                                <p class="title">King Chess Ranking</p>
+                                <p class="subtitle"><a href="https://github.com/JCH95/Chess-App-Project-2" target="_blank">GitHub Repository</a></p>
+                                <figure class="image is-1280x960">
+                                    <img src="assets/images/chess-app.png" alt="Chess Club App" class="img">
+                                </figure>
+                                <br>
+                                <p>
+                                    This project is dedicated to a high school chess club. The goal of this project is to provide an app where 
+                                    the members of the chess club can track their ranking based on games they play within the chess club meetings. 
+                                    Once they create profiles and add all member to a bracket, they will play games against eachother, and the results 
+                                    will be tracked and added to the app by the head of the chess club. The app will feature a specific ELO algorithm 
+                                    to update their current standings amongst the other members. This app is still in development and was built by a 
+                                    team of 4 developers within 2 weeks.
+                                </p>
+                                <br>
+                                <br>
+                                <p class="lang">Languages</p>
+                                <p>HTML, CSS, JavaScript, Handlebars, Shell, Node, Express, MySQL, Bcrypt</p>
+                            </article>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-info">
+                                <p class="title">Life Sherpa</p>
+                                <p class="subtitle"><a href="https://github.com/crocket77/JASEalive" target="_blank">GitHub Repository</a></p>
+                                <figure class="image is-1280x960">
+                                    <img src="assets/images/life-sherpa.png" alt="Life Sherpa App" class="img">
+                                </figure>
+                                <br>
+                                <p>
+                                    This project is a website where users may create an account and sign up for mentorship in a given list of topics.
+                                    Once signed up, users can see a full list of the mentors on the site, as well as videos that mentors post to help
+                                    teach mentees. Users can also choose to be a mentor on the site and post their own videos or pieces of wisdom they
+                                    would like to share. This site is still in development, and hopes to add comments for videos, private communications
+                                    between mentor and mentee, among other things. This was built by a team of 4 developers within a week and a half.
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+                                <p class="lang">Languages</p>
+                                <p>React.js, JavaScript, Node.js, Mongoose, MongoDB, JWT, GraphQL, Express.js, Bulma, CSS, Apollo-Server, Bcrypt, Faker</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tile is-ancestor">
+                        <div class="tile is-vertical is-12">
+                            <div class="tile mx-3">
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification is-primary">
+                                        <p class="title">Password Generator</p>
+                                        <p class="subtitle"><a href="https://github.com/JCH95/password-generator-bingbong" target="_blank">GitHub Repository</a></p>
+                                        <br>
+                                        <p class="lang">Languages</p>
+                                        <p>JavaScript, CSS, HTML</p>
+                                    </article>
+                                </div>
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification is-primary">
+                                        <p class="title">Work Day Scheduler</p>
+                                        <p class="subtitle"><a href="https://github.com/JCH95/coding-hashira" target="_blank">GitHub Repository</a></p>
+                                        <div class="content">
+                                            <!-- Content -->
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification is-primary">
+                                        <p class="title">ReadMe Generator</p>
+                                        <p class="subtitle"><a href="https://github.com/JCH95/ReadMe-hashira" target="_blank">GitHub Repository</a></p>
+                                        <div class="content">
+                                            <!-- Content -->
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification is-primary">
+                                        <p class="title">E-Commerce Back End</p>
+                                        <p class="subtitle"><a href="https://github.com/JCH95/E-commerce-BE" target="_blank">GitHub Repository</a></p>
+                                        <div class="content">
+                                            <!-- Content -->
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile is-ancestor">
+                        <div class="tile is-vertical is-12">
+                            <div class="tile mx-3">
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification is-primary">
+                                        <p class="title">Budget Tracker</p>
+                                        <p class="subtitle"><a href="https://github.com/JCH95/PWA-Budget-Tracker" target="_blank">GitHub Repository</a></p>
+                                        <div class="content">
+                                            <!-- Content -->
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification is-primary">
+                                        <p class="title">Note Taker</p>
+                                        <p class="subtitle"><a href="https://github.com/JCH95/Note-Taker-Express" target="_blank">GitHub Repository</a></p>
+                                        <div class="content">
+                                            <!-- Content -->
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification is-primary">
+                                        <p class="title">Coding Quiz</p>
+                                        <p class="subtitle"><a href="https://github.com/JCH95/coding-quiz" target="_blank">GitHub Repository</a></p>
+                                        <div class="content">
+                                            <!-- Content -->
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification is-primary">
+                                        <p class="title">Social Network API</p>
+                                        <p class="subtitle"><a href="https://github.com/JCH95/Social-Network-App" target="_blank">GitHub Repository</a></p>
+                                        <div class="content">
+                                            <!-- Content -->
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -125,10 +220,10 @@
         <section id="contact-me" class="contact">
             <h2>Contact Me</h2>
             <div>
-                <p>Phone:(210) 632-0508</p>
+                <p>Phone: (210) 632-0508</p>
             </div>
             <div>
-                <p>Email:<a href="mailto:jhorger95@gmail.com" target="_blank">jhorger95@gmail.com</a></p>
+                <p>Email: <a href="mailto:jhorger95@gmail.com" target="_blank">jhorger95@gmail.com</a></p>
             </div>
             <br />
             <div>
