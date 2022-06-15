@@ -209,7 +209,7 @@ section {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    border: 5px solid var(--primary-color);
+    /* border: 5px solid var(--primary-color); */
 }
 
 .img-2 {
